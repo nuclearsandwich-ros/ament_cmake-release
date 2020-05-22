@@ -1,0 +1,12 @@
+Source: ros-testing2-ament-cmake
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-testing2-ament-cmake-core, ros-testing2-ament-cmake-export-dependencies, ros-testing2-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing2-ament-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, cmake, ros-testing2-ament-cmake-core, ros-testing2-ament-cmake-export-definitions, ros-testing2-ament-cmake-export-dependencies, ros-testing2-ament-cmake-export-include-directories, ros-testing2-ament-cmake-export-interfaces, ros-testing2-ament-cmake-export-libraries, ros-testing2-ament-cmake-export-link-flags, ros-testing2-ament-cmake-export-targets, ros-testing2-ament-cmake-libraries, ros-testing2-ament-cmake-python, ros-testing2-ament-cmake-target-dependencies, ros-testing2-ament-cmake-test, ros-testing2-ament-cmake-version, ros-testing2-ros-workspace
+Description: The entry point package for the ament buildsystem in CMake.
